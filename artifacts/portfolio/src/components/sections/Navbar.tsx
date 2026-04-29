@@ -31,13 +31,12 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 border-b border-transparent ${
-        isScrolled ? "bg-background/90 backdrop-blur-md border-border/50 py-4" : "bg-transparent py-6"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 border-b border-transparent ${isScrolled ? "bg-background/90 backdrop-blur-md border-border/50 py-4" : "bg-transparent py-6"
+        }`}
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
-        <a 
-          href="#" 
+        <a
+          href="#"
           onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
           className="group flex items-center justify-center w-12 h-12 border-2 border-primary bg-background relative overflow-hidden"
         >
@@ -61,7 +60,7 @@ export default function Navbar() {
             </button>
           ))}
           <a
-            href="/assets/Tofunmi-Adeniyi-CV.pdf"
+            href="/Tofunmi-resume.pdf"
             download
             className="px-6 py-2 border border-primary text-primary text-sm font-semibold tracking-wider hover:bg-primary hover:text-white transition-all duration-300"
           >
@@ -95,7 +94,7 @@ export default function Navbar() {
             </button>
           ))}
           <a
-            href="/assets/Tofunmi-Adeniyi-CV.pdf"
+            href="/Tofunmi-resume.pdf"
             download
             className="px-8 py-3 border border-primary text-primary font-semibold tracking-wider hover:bg-primary hover:text-white transition-all mt-4"
           >
