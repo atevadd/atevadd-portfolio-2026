@@ -1,4 +1,11 @@
+[build]
+  # The command to run to build your site
+  command = "pnpm run build"
+  # The directory that contains the deploy-ready HTML/CSS/JS
+  # Based on your vite.config.ts, this is dist/public
+  publish = "dist/public"
+
 [[redirects]]
-    from="/*"
-    to = "/index.html"
-    status = 200
+  from = "/*"
+  to = "/index.html"
+  status = 200
