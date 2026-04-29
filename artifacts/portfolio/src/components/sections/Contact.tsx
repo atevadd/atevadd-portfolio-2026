@@ -4,7 +4,7 @@ import { Mail, Download } from "lucide-react";
 export default function Contact() {
   return (
     <section id="contact" className="py-32 bg-primary/5 border-t border-primary/20 relative overflow-hidden">
-      <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-primary/10 to-transparent pointer-events-none" />
+      <div className="absolute top-0 right-0 w-1/2 h-full bg-linear-to-l from-primary/10 to-transparent pointer-events-none" />
 
       <div className="container mx-auto px-6 md:px-12 relative z-10 text-center">
         <motion.div

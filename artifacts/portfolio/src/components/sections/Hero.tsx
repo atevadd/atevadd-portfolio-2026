@@ -82,7 +82,7 @@ export default function Hero() {
         className="absolute bottom-10 left-6 md:left-12 flex flex-col items-center gap-4"
       >
         <span className="text-xs tracking-[0.3em] font-mono text-muted-foreground rotate-180" style={{ writingMode: 'vertical-rl' }}>SCROLL</span>
-        <div className="w-px h-16 bg-gradient-to-b from-primary to-transparent" />
+        <div className="w-px h-16 bg-linear-to-b from-primary to-transparent" />
       </motion.div>
     </section>
   );
