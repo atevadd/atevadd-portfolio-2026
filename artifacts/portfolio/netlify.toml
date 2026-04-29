@@ -1,4 +1,11 @@
+[build]
+  # Command to build the Vite project
+  command = "pnpm run build"
+  # Output directory matching vite.config.ts outDir (relative to this file)
+  publish = "dist/public"
+
 [[redirects]]
+  # Catch-all redirect so React Router handles client-side routing
   from = "/*"
   to = "/index.html"
   status = 200
